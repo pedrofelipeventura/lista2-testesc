@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+  
+int alturaPedro = 110;
+int alturaJose = 150;
+int anos = 0;
+
+while(alturaPedro < alturaJose){
+  alturaPedro += 3;
+  alturaJose += 2;
+  anos ++;
+}
+
+printf("Pedro será maior que jose em %d anos", anos);
+ 
+return 0;
+}
